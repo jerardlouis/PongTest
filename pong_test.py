@@ -20,10 +20,7 @@ def preprocess(img):
         resized = np.divide(resized, 255)
         resized = np.reshape(resized, resized.shape + (1,))
         return resized
-'''
-??? can't get this shit to fucking run bc the values of the input don't fit
-What do ???kkkk
-'''
+
 class Agent():
     def __init__(self, env_inp_shape, actions):
         #Neural Network
